@@ -9,7 +9,7 @@ logger.add_file_logger("/tmp/caerus.log")
 
 def main():
     logger.debug("timelapse initialised")
-    camera = Camera(resolution_scale_factor=0.5)
+    camera = Camera(resolution_scale_factor=1, framerate=(1, 6), iso=800)
 
     timestamp = datetime.now().isoformat()
     camera.snapshot(f"/home/pi/picture_{timestamp}.jpg")
