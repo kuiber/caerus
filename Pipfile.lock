@@ -1,0 +1,28 @@
+{
+    "_meta": {
+        "hash": {
+            "sha256": "488a33d20fff8289e371719c509c5f60a7b8821b8b482d94f23f03228773fc1c"
+        },
+        "pipfile-spec": 6,
+        "requires": {
+            "python_version": "3.7"
+        },
+        "sources": [
+            {
+                "name": "pypi",
+                "url": "https://pypi.org/simple",
+                "verify_ssl": true
+            }
+        ]
+    },
+    "default": {
+        "picamera": {
+            "hashes": [
+                "sha256:890815aa01e4d855a6a95dd3ad0953b872a6b954982106407df0c5a31a163e50"
+            ],
+            "index": "pypi",
+            "version": "==1.13"
+        }
+    },
+    "develop": {}
+}
