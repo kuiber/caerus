@@ -1,3 +1,3 @@
 # caerus
 
-Time Lapse Camera For Raspberry Pi
+Time Lapse Web Interface For Raspberry Pi
